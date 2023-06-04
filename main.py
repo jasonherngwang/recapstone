@@ -15,8 +15,8 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 origins = [
     "http://localhost",
     "http://localhost:3000",
-    "http://jasonherngwang.com",
-    "http://www.jasonherngwang.com",
+    "https://jasonherngwang.com",
+    "https://www.jasonherngwang.com",
 ]
 
 app.add_middleware(
