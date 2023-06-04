@@ -41,7 +41,7 @@ chain = ConversationalRetrievalChain.from_llm(
     return_source_documents=False,
     combine_docs_chain_kwargs={"prompt": QA_PROMPT},
     condense_question_prompt=CONDENSE_QUESTION_PROMPT,
-    verbose=True,
+    verbose=False,
 )
 
 
