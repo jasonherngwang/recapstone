@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "recapstone"
+version = "0.1.0"
+description = ""
+authors = ["Jason Wang <jasonherngwang@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.95.2"}
+pinecone-client = "^2.2.1"
+langchain = "^0.0.189"
+tiktoken = "^0.4.0"
+python-dotenv = "^1.0.0"
+openai = "^0.27.7"
+slowapi = "^0.1.8"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+ruff = "^0.0.270"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
