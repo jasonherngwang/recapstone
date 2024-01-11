@@ -7,6 +7,4 @@ API for an AI chatbot that answers questions about the [Seamless CI/CD case stud
 - Top 4 most relevant chunks are retrieved from the vector store, and fed as context for the condensed question, to the LLM.
 - Basic FastAPI setup, rate limited.
 
-Try it out: [https://www.jasonherngwang.com/#seamie](https://www.jasonherngwang.com/#seamie)
-
 ![Seamie](seamie.png)
